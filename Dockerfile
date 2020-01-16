@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM ppc64le/ubuntu
 
 # Install Python.
 RUN \
